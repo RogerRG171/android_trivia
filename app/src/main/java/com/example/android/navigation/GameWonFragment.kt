@@ -60,7 +60,7 @@ class GameWonFragment : Fragment() {
         }
     }
 
-    //create fun to share implicity intent
+    //create fun to share implicity intent.
     private fun getShareIntent(): Intent{
         var args = GameWonFragmentArgs.fromBundle(requireArguments())
 

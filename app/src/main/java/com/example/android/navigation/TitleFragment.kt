@@ -12,7 +12,7 @@ import com.example.android.navigation.databinding.FragmentTitleBinding
 class TitleFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
-        //binding inflate
+        //binding inflate.
         val binding: FragmentTitleBinding = DataBindingUtil.inflate(inflater, R.layout.fragment_title, container, false )
 
        //action to navigation

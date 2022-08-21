@@ -109,7 +109,7 @@ class GameFragment : Fragment() {
         return binding.root
     }
 
-    // randomize the questions and set the first question
+    // randomize the questions and set the first question.
     private fun randomizeQuestions() {
         questions.shuffle()
         questionIndex = 0
